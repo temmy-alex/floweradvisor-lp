@@ -82,17 +82,6 @@
                             <br>
                         </div>
 
-                        {{-- <div class="form-group">
-                            <label for="captcha" class="sr-only">Captcha</label>
-                            {!! app('captcha')->display() !!}
-        
-                            @error('g-recaptcha-response')
-                                <p class="text-danger">
-                                    <small>{{ $message }}</small>
-                                </p>
-                            @enderror
-                        </div> --}}
-
                         <div class="input-group center">
                             <button class="btn btn-danger btn-round">Sign Up</button>
                         </div>

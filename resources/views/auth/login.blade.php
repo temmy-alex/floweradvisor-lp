@@ -50,8 +50,8 @@
                             @enderror
                         </div>
 
-                        <div class="form-group">
-                            {{-- Captcha --}}
+                        {{-- Uncomment if you need activate Google Recaptcha --}}
+                        {{-- <div class="form-group">
                             <label for="captcha" class="sr-only">Captcha</label>
                             {!! app('captcha')->display() !!}
         
@@ -60,7 +60,7 @@
                                     <small>{{ $message }}</small>
                                 </p>
                             @enderror
-                        </div>
+                        </div> --}}
 
                         <div class="input-group center">
                             <button class="btn btn-danger btn-round">Sign In</button>

@@ -33,7 +33,8 @@ class LoginController extends Controller
         $request->validate([
             'email' => 'required|string',
             'password' => 'required|string',
-            'g-recaptcha-response' => 'required|captcha',
+            // Uncomment if you need activate google recaptcha
+            // 'g-recaptcha-response' => 'required|captcha',
         ]);
     }
 
